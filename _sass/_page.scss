@@ -49,10 +49,23 @@
 }
 
 .page__content {
+  color: #3a3a3a;
+  line-height: 1.75;
 
   h2 {
-    padding-bottom: 0.5em;
-    border-bottom: 1px solid $border-color;
+    padding-bottom: 0.6em;
+    border-bottom: 2px solid $border-color;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+  }
+
+  h3 {
+    color: #34495e;
+    font-weight: 600;
+    margin-top: 2em;
+    margin-bottom: 0.8em;
   }
 
   p,
@@ -63,7 +76,8 @@
 
   /* paragraph indents */
   p {
-    margin: 0 0 $indent-var;
+    margin: 0 0 1.5em;
+    line-height: 1.8;
 
     /* sibling indentation*/
     @if $paragraph-indent ==true {
@@ -76,12 +90,17 @@
 
   a {
     text-decoration: none;
+    color: #4a90e2;
+    transition: all 0.25s ease;
+    border-bottom: 1px solid transparent;
 
     &:hover {
-      text-decoration: underline;
+      color: #357abd;
+      border-bottom: 1px solid #357abd;
+      text-decoration: none;
 
       img {
-        box-shadow: 0 0 10px rgba(#000, 0.25);
+        box-shadow: 0 4px 16px rgba(#000, 0.2);
       }
     }
   }
@@ -106,6 +125,26 @@
   blockquote+.small {
     margin-top: -1.5em;
     padding-left: 1.25rem;
+  }
+
+  blockquote {
+    margin: 2em 0;
+    padding: 1em 1.5em;
+    border-left: 4px solid #4a90e2;
+    background-color: #f8f9fa;
+    color: #4a5568;
+    font-style: italic;
+    border-radius: 0 4px 4px 0;
+  }
+
+  ul, ol {
+    margin-bottom: 2em;
+    padding-left: 1.8em;
+  }
+
+  li {
+    margin-bottom: 0.75em;
+    line-height: 1.7;
   }
 }
 

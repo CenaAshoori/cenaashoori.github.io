@@ -74,18 +74,18 @@ $darker-gray: mix(#000, $gray, 60%) !default;
 $light-gray: mix(#fff, $gray, 50%) !default;
 $lighter-gray: mix(#fff, $gray, 90%) !default;
 
-$body-color : #ebebeb;
+$body-color : #f8f9fa;
 $background-color : #ffffff;
-$code-background-color : $lighter-gray;
-$code-background-color-dark : $light-gray;
-$text-color : $dark-gray;
-$border-color : $lighter-gray;
+$code-background-color : #f6f8fa;
+$code-background-color-dark : #e1e4e8;
+$text-color : #2d3748;
+$border-color : #e2e8f0;
 
-$primary-color : #21417c;
-$success-color : #62c462;
-$warning-color : #f89406;
-$danger-color : #ee5f5b;
-$info-color : #55668c;
+$primary-color : #4a5568;
+$success-color : #48bb78;
+$warning-color : #ed8936;
+$danger-color : #f56565;
+$info-color : #4299e1;
 
 // $primary-color: #6f777d !default;
 // $success-color: #3fa63f !default;
@@ -120,11 +120,11 @@ $xing-color : #006567;
 
 
 /* links */
-$link-color : $info-color;
-$link-color-hover : mix(#fff, $link-color, 25%);
-$link-color-visited : mix(#000, $link-color, 25%);
-$masthead-link-color : $primary-color;
-$masthead-link-color-hover : mix(#fff, $primary-color, 25%);
+$link-color : #4a90e2;
+$link-color-hover : #357abd;
+$link-color-visited : #5a6c7d;
+$masthead-link-color : #2c3e50;
+$masthead-link-color-hover : #34495e;
 
 
 /*

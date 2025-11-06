@@ -1,79 +1,365 @@
-/* Subtle Enhancements to Existing Portfolio */
+/* ============================================================================
+   Enhanced Portfolio Styling - Modern & Clean Design
+   ========================================================================== */
 
-/* Improve readability and spacing */
-.page__content {
-  line-height: 1.8;
+/* ==========================================================================
+   Typography & Readability
+   ========================================================================== */
+
+body {
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+.page__content {
+  line-height: 1.75;
+  color: #3a3a3a;
+}
+
+/* Enhanced Headings */
 .page__content h2 {
-  margin-top: 2em;
-  margin-bottom: 0.8em;
-  padding-bottom: 0.5em;
-  border-bottom: 2px solid #f0f0f0;
+  margin-top: 2.5em;
+  margin-bottom: 1em;
+  padding-bottom: 0.6em;
+  border-bottom: 3px solid #e8e8e8;
+  font-weight: 600;
+  color: #2c3e50;
+  letter-spacing: -0.02em;
+}
+
+.page__content h2:first-child {
+  margin-top: 0;
 }
 
 .page__content h3 {
-  margin-top: 1.5em;
-  margin-bottom: 0.6em;
-  color: #494e52;
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+  color: #34495e;
+  font-weight: 600;
+  letter-spacing: -0.01em;
 }
 
-/* Better list styling */
-.page__content ul {
+.page__content h4 {
+  margin-top: 1.5em;
+  margin-bottom: 0.6em;
+  color: #4a5568;
+  font-weight: 600;
+}
+
+/* ==========================================================================
+   Content Spacing & Layout
+   ========================================================================== */
+
+.page__content > p {
   margin-bottom: 1.5em;
+  line-height: 1.8;
+}
+
+.page__content > p:first-of-type {
+  font-size: 1.05em;
+  color: #2d3748;
+}
+
+/* Enhanced Lists */
+.page__content ul,
+.page__content ol {
+  margin-bottom: 2em;
+  padding-left: 1.8em;
 }
 
 .page__content li {
+  margin-bottom: 0.75em;
+  line-height: 1.7;
+}
+
+.page__content li::marker {
+  color: #5a6c7d;
+}
+
+/* Nested lists */
+.page__content li ul,
+.page__content li ol {
+  margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
 
-/* Subtle link improvements */
+/* ==========================================================================
+   Links & Interactions
+   ========================================================================== */
+
 .page__content a {
-  transition: color 0.2s ease;
+  transition: all 0.25s ease;
+  color: #4a90e2;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
 }
 
 .page__content a:hover {
-  text-decoration: underline;
+  color: #357abd;
+  border-bottom: 1px solid #357abd;
+  text-decoration: none;
 }
 
-/* Better code block styling */
+/* ==========================================================================
+   Code & Technical Elements
+   ========================================================================== */
+
 .page__content code {
-  padding: 0.2em 0.4em;
-  background-color: #f5f5f5;
-  border-radius: 3px;
+  padding: 0.25em 0.5em;
+  background-color: #f6f8fa;
+  border: 1px solid #e1e4e8;
+  border-radius: 4px;
+  font-size: 0.88em;
+  color: #24292e;
+  font-family: 'Monaco', 'Consolas', 'Courier New', monospace;
+}
+
+.page__content pre {
+  padding: 1.2em;
+  background-color: #f6f8fa;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  overflow-x: auto;
+  margin-bottom: 1.5em;
+}
+
+.page__content pre code {
+  padding: 0;
+  background: transparent;
+  border: none;
   font-size: 0.9em;
 }
 
-/* Improve author profile card */
+/* ==========================================================================
+   Author Profile Card - Enhanced
+   ========================================================================== */
+
+.sidebar .author__avatar {
+  margin-bottom: 1.2em;
+}
+
 .author__avatar img {
-  transition: transform 0.3s ease;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .author__avatar img:hover {
-  transform: scale(1.05);
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
 
-/* Better spacing for content sections */
-.page__content > p {
-  margin-bottom: 1.3em;
+.author__name {
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 0.8em;
+  font-size: 1.3em;
 }
 
-/* Subtle shadow for better depth */
+.author__bio {
+  line-height: 1.6;
+  color: #4a5568;
+  font-size: 0.9em;
+}
+
+/* Enhanced Social Links */
 .author__urls-wrapper {
+  margin-top: 1.5em;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 1em;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.author__urls {
+  margin-top: 1em;
+}
+
+.author__urls li {
+  margin-bottom: 0.6em;
+}
+
+.author__urls a {
+  transition: all 0.25s ease;
+  padding: 0.4em 0.6em;
+  border-radius: 4px;
+  display: inline-block;
+  color: #4a5568;
+}
+
+.author__urls a:hover {
+  background-color: #f7fafc;
+  color: #2c3e50;
+  transform: translateX(4px);
+  text-decoration: none;
+}
+
+.author__urls i {
+  width: 1.2em;
+  text-align: center;
+  margin-right: 0.4em;
+  color: #5a6c7d;
+}
+
+/* ==========================================================================
+   Page Layout Enhancements
+   ========================================================================== */
+
+#main {
+  background: #ffffff;
+  border-radius: 0;
+  padding: 2em 1.5em;
+}
+
+.page {
+  background: #ffffff;
+}
+
+.page__inner-wrap {
+  padding: 0;
+}
+
+/* ==========================================================================
+   Horizontal Rules
+   ========================================================================== */
+
+.page__content hr {
+  margin: 2.5em 0;
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #e0e0e0, transparent);
+}
+
+/* ==========================================================================
+   Blockquotes
+   ========================================================================== */
+
+.page__content blockquote {
+  margin: 2em 0;
+  padding: 1em 1.5em;
+  border-left: 4px solid #4a90e2;
+  background-color: #f8f9fa;
+  color: #4a5568;
+  font-style: italic;
+  border-radius: 0 4px 4px 0;
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+
+.page__content table {
+  width: 100%;
+  margin-bottom: 2em;
+  border-collapse: collapse;
+  border-radius: 6px;
+  overflow: hidden;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-/* Responsive improvements */
+.page__content th {
+  background-color: #f6f8fa;
+  padding: 1em;
+  text-align: left;
+  font-weight: 600;
+  color: #2c3e50;
+  border-bottom: 2px solid #e1e4e8;
+}
+
+.page__content td {
+  padding: 0.9em 1em;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.page__content tr:last-child td {
+  border-bottom: none;
+}
+
+.page__content tr:hover {
+  background-color: #f8f9fa;
+}
+
+/* ==========================================================================
+   Quick Links Section
+   ========================================================================== */
+
+.page__content a[href^="mailto:"],
+.page__content a[href*="/cv/"],
+.page__content a[href*="/projects/"] {
+  display: inline-block;
+  padding: 0.6em 1.2em;
+  margin: 0.3em 0.5em 0.3em 0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #ffffff;
+  border-radius: 6px;
+  font-weight: 500;
+  box-shadow: 0 2px 6px rgba(102, 126, 234, 0.3);
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.page__content a[href^="mailto:"]:hover,
+.page__content a[href*="/cv/"]:hover,
+.page__content a[href*="/projects/"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+  border: none;
+  color: #ffffff;
+}
+
+/* ==========================================================================
+   Responsive Design
+   ========================================================================== */
+
 @media (max-width: 768px) {
   .page__content {
     font-size: 16px;
   }
 
   .page__content h2 {
-    font-size: 1.5em;
+    font-size: 1.6em;
+    margin-top: 1.5em;
   }
 
   .page__content h3 {
-    font-size: 1.2em;
+    font-size: 1.3em;
+  }
+
+  #main {
+    padding: 1.5em 1em;
+  }
+
+  .author__urls-wrapper {
+    padding: 0.8em;
+  }
+
+  .page__content a[href^="mailto:"],
+  .page__content a[href*="/cv/"],
+  .page__content a[href*="/projects/"] {
+    display: block;
+    text-align: center;
+    margin: 0.5em 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  #main {
+    padding: 1.8em 1.2em;
+  }
+}
+
+/* ==========================================================================
+   Print Styles
+   ========================================================================== */
+
+@media print {
+  .author__avatar img {
+    box-shadow: none;
+  }
+
+  .page__content a {
+    color: #000;
+    text-decoration: underline;
   }
 }
