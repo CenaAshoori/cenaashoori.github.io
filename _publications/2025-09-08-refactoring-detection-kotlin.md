@@ -12,5 +12,5 @@ paperurl: "https://doi.org/10.1007/978-3-032-04190-6_4"
 
 This study evaluates zero-shot cross-language refactoring detection: Random Forest models trained on Java are applied to Kotlin projects and assessed against RefDetect annotations.
 
-**Authors:** Mohammad Mehdi Afkhami, Iman Hemati Moghadam, Vadim Zaytsev, Mohammad Hossein Ashoori, Hossein Bazmandegan.  
+**Authors:** Mohammad Mehdi Afkhami, Iman Hemati Moghadam, Vadim Zaytsev, Mohammad Hosein Ashoori, Hossein Bazmandegan.  
 **DOI:** [10.1007/978-3-032-04190-6_4](https://doi.org/10.1007/978-3-032-04190-6_4)

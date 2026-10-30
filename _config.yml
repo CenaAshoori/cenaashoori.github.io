@@ -7,16 +7,16 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Mohammad Hossein (Cena) Ashoori"
+title                    : "Mohammad Hosein (Cena) Ashoori"
 title_separator          : "-"
-name                     : &name "Mohammad Hossein (Cena) Ashoori"
-description              : &description "Mohammad Hossein (Cena) Ashoori, also known as Mohammad Hossein Ashoori, Cena Ashoori, and Sina Ashoori (محمدحسین عشوری / سینا عشوری), is a software engineer and product builder."
+name                     : &name "Mohammad Hosein (Cena) Ashoori"
+description              : &description "Mohammad Hosein (Cena) Ashoori, also known as Mohammad Hosein Ashoori, Cena Ashoori, and Sina Ashoori (محمدحسین عشوری / سینا عشوری), is a software engineer and product builder."
 url                      : https://cenaashoori.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "cenaashoori/cenaashoori.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false  # true, false (default)
-seo_description          : "Mohammad Hossein (Cena) Ashoori, also known as Mohammad Hossein Ashoori, Cena Ashoori, and Sina Ashoori (محمدحسین عشوری / سینا عشوری), builds software products with React, Next.js, Python, Flutter, and FastAPI."
+seo_description          : "Mohammad Hosein (Cena) Ashoori, also known as Mohammad Hosein Ashoori, Cena Ashoori, and Sina Ashoori (محمدحسین عشوری / سینا عشوری), builds software products with React, Next.js, Python, Flutter, and FastAPI."
 words_per_minute         : 160
 future                   : true
 read_more                : "enabled" # if enabled, adds "Read more" links to excerpts
@@ -68,9 +68,9 @@ og_image                 : "profile.png" # filename in /images, used by social s
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : "Person"
-  name                   : "Mohammad Hossein (Cena) Ashoori"
+  name                   : "Mohammad Hosein (Cena) Ashoori"
   alternate_names:
-    - "Mohammad Hossein Ashoori"
+    - "Mohammad Hosein Ashoori"
     - "Cena Ashoori"
     - "Sina Ashoori"
     - "sina Ashoori"
@@ -93,7 +93,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Mohammad Hossein (Cena) Ashoori"
+  name             : "Mohammad Hosein (Cena) Ashoori"
   avatar           : "profile.png"
   bio              : "Software engineer and product builder. I take web applications from product thinking and UX through React/Next.js implementation, backend services, and production delivery."
   location         : "Dubai, United Arab Emirates"

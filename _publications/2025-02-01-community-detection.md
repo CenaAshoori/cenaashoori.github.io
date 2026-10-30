@@ -12,5 +12,5 @@ paperurl: "https://doi.org/10.1016/j.jnca.2024.104070"
 
 This paper introduces a community-detection method combining random walks with multi-objective evolutionary optimization, and evaluates it on real and artificial networks.
 
-**Authors:** Fahimeh Dabaghi-Zarandi, Mohammad Mehdi Afkhami, Mohammad Hossein Ashoori.  
+**Authors:** Fahimeh Dabaghi-Zarandi, Mohammad Mehdi Afkhami, Mohammad Hosein Ashoori.  
 **DOI:** [10.1016/j.jnca.2024.104070](https://doi.org/10.1016/j.jnca.2024.104070)

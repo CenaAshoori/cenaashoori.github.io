@@ -128,7 +128,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 | First and Last Name            | Github                                  |
 | ------------------------------ | --------------------------------------- |
-| Mohammad Hossein(Cena) Ashoori | [Link](https://github.com/CenaAshoori)  |
+| Mohammad Hosein (Cena) Ashoori | [Link](https://github.com/CenaAshoori)  |
 | Mohammad Mehdi Afkhami         | [Link](https://github.com/mohmehdi)     |
 | Parsa KamaliPour               | [Link](https://github.com/benymaxparsa) |
 

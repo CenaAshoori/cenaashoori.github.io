@@ -1,15 +1,15 @@
 ---
 permalink: /
-title: "Mohammad Hossein (Cena) Ashoori"
-excerpt: "Mohammad Hossein (Cena) Ashoori — also known as Mohammad Hossein Ashoori, Cena Ashoori, and Sina Ashoori — is a software engineer and product builder."
-description: "Mohammad Hossein (Cena) Ashoori, also known as Mohammad Hossein Ashoori, Cena Ashoori, and Sina Ashoori (محمدحسین عشوری / سینا عشوری), builds software products with React, Next.js, Python, Flutter, and FastAPI."
+title: "Mohammad Hosein (Cena) Ashoori"
+excerpt: "Mohammad Hosein (Cena) Ashoori — also known as Mohammad Hosein Ashoori, Cena Ashoori, and Sina Ashoori — is a software engineer and product builder."
+description: "Mohammad Hosein (Cena) Ashoori, also known as Mohammad Hosein Ashoori, Cena Ashoori, and Sina Ashoori (محمدحسین عشوری / سینا عشوری), builds software products with React, Next.js, Python, Flutter, and FastAPI."
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-I’m **Mohammad Hossein (Cena) Ashoori** (**محمدحسین عشوری**), also known as **Mohammad Hossein Ashoori**, **Cena Ashoori**, and **Sina Ashoori** (**سینا عشوری**). I’m a software engineer and product builder who takes applications from an initial idea through product design, implementation, deployment, and continued improvement, with a focus on **React, Next.js, TypeScript, Python, Django, Flutter, and FastAPI**.
+I’m **Mohammad Hosein (Cena) Ashoori** (**محمدحسین عشوری**), also known as **Mohammad Hosein Ashoori**, **Cena Ashoori**, and **Sina Ashoori** (**سینا عشوری**). I’m a software engineer and product builder who takes applications from an initial idea through product design, implementation, deployment, and continued improvement, with a focus on **React, Next.js, TypeScript, Python, Django, Flutter, and FastAPI**.
 
 ## Recent product work
 
