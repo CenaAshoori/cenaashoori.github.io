@@ -6,36 +6,12 @@
 
 <div itemscope itemtype="http://schema.org/Person">
 
-      <script type="text/javascript">
-            var imageURLs = [
-                  "https://github.com/CenaAshoori/cenaashoori.github.io/raw/master/images/profile.jpg",
-                  "https://github.com/CenaAshoori/cenaashoori.github.io/raw/master/images/profile1.jpg",
-                  "https://github.com/CenaAshoori/cenaashoori.github.io/raw/master/images/profile1.jpg",
-                  "https://github.com/CenaAshoori/cenaashoori.github.io/raw/master/images/profile2.jpg",
-                  "https://github.com/CenaAshoori/cenaashoori.github.io/raw/master/images/profile3.jpg",
-                  "https://github.com/CenaAshoori/cenaashoori.github.io/raw/master/images/profile4.jpg",
-                  "https://github.com/CenaAshoori/cenaashoori.github.io/raw/master/images/profile5.jpg",
-                  "https://github.com/CenaAshoori/cenaashoori.github.io/raw/master/images/profile6.jpg",
-                  "https://github.com/CenaAshoori/cenaashoori.github.io/raw/master/images/profile7.jpg",
-
-
-            ];
-            function getImageTag() {
-                  var randomIndex = Math.floor(Math.random() * imageURLs.length);
-                  return imageURLs[randomIndex];
-            }
-      </script>
-
       <div class="author__avatar">
             {% if author.avatar contains "://" %}
-            <img id="prof_icon" src="" alt="{{ author.name }}">
+            <img id="prof_icon" src="{{ author.avatar }}" class="author__avatar" alt="Portrait of {{ author.name }}">
             {% else %}
-            <!-- <img src=changeRandomimage() class="author__avatar" alt="{{ author.name }}"> -->
-            <img id="prof_icon" src="" class="author__avatar" alt="{{ author.name }}">
+            <img id="prof_icon" src="{{ base_path }}/images/{{ author.avatar }}" class="author__avatar" alt="Portrait of {{ author.name }}">
             {% endif %}
-            <script type="text/javascript">
-                  document.getElementById("prof_icon").src = getImageTag();
-            </script>
       </div>
 
 

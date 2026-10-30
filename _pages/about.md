@@ -1,42 +1,29 @@
 ---
 permalink: /
-title: "Mohammad Hosein Ashoori"
-excerpt: "About me"
+title: "Mohammad Hosein (Cena) Ashoori"
+excerpt: "Software engineer and product builder taking applications from concept to production."
+description: "Mohammad Hosein (Cena) Ashoori builds polished software products from idea to production with React, Next.js, TypeScript, Python, Django, and FastAPI."
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-This is Mohammad Hosein Ashoori, or Cena, as my friends call me, and I am an undergraduate student at Vali-e-Asr University of Rafsanjan, where I study computer engineering.
+I’m **Mohammad Hosein (Cena) Ashoori**, a software engineer and product builder. I take applications from an initial idea through product design, implementation, deployment, and continued improvement. I work across the full development flow, with a focus on **React, Next.js, TypeScript, Python, Django, and FastAPI**.
 
-I have extensive experience with machine learning and have used it to solve a variety of problems, including detecting abnormalities in chest X-rays, detecting pneumonia in chest X-rays, and detecting abnormalities in MRI. Also, I'm really interested in signal processing and how it can be used to study the brain, so I'm trying to learn more and move up in this field.
+## Recent product work
 
-Furthermore, in the senior year of my bachelor's, I was a teaching assistant for more than five courses, and for the following semester, I'll be a TA for two more courses that I adore, AI and Database, even though I've already graduated. Also, I've been RA for more than six months, so we're writing two papers. In one, we use an evolutionary algorithm to find communities, and in the other, we use deep learning to figure out communities by extracting features.
+- **[DocSphere](https://docsphere.app/)** — building a digital health product and its end-to-end care and service workflows.
+- **[Wearto](https://wearto.app/)** — developing an AI-assisted fashion and commerce experience across web and mobile, including virtual try-on.
 
-You can find more details in the following section:
+## Research
 
-### Click here to see my [Biography](/biography/)
+I also contribute to software engineering research, including work on **community detection in complex networks** and **cross-language refactoring detection for Kotlin**. My published papers are on the [publications page](/publications/) and [Google Scholar](https://scholar.google.com/citations?user=eBNZsM0AAAAJ).
 
-### Click here to see my [Education](/education/)
+## Get in touch
 
-### Click here to see my [scientific papers](/publications/)
+[Email](mailto:mhashoori.edu@gmail.com) · [LinkedIn](https://www.linkedin.com/in/mhashoori/) · [GitHub](https://github.com/CenaAshoori) · [ORCID](https://orcid.org/0000-0001-9443-0949)
 
-### Click here to see my [Teaching Experiences](/teaching/)
+## More
 
-### Click here to see my [Research Experiences](/research/)
-
-### Click here to see my [Industry Experiences](/industry/)
-
-### Click here to see my [Projects](/projects/)
-
-### Click here to see my [CV](/cv/)
-
-### Click here to see my [Selected Courses](/selected_courses/)
-
-### Click here to see my [Extra Curricular Activities](/extracurricular/)
-
-### Click here to see my [Honors and Awards, Test Scores, Skills, etc.](/honors_and_extra/)
-
-
-
+See my [biography](/biography/), [education](/education/), [teaching](/teaching/), [research](/research/), [projects](/projects/), or [CV](/cv/).

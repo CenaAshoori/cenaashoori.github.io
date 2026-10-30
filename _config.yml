@@ -7,16 +7,16 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Mohammad Hosein Ashoori"
+title                    : "Mohammad Hosein (Cena) Ashoori"
 title_separator          : "-"
-name                     : &name "Mohammad Hosein Ashoori"
-description              : &description "Software Engineering Student | Teaching/Research Assistant | Full-Stack Develpoer | Computer Science Enthusiast"
+name                     : &name "Mohammad Hosein (Cena) Ashoori"
+description              : &description "Mohammad Hosein (Cena) Ashoori is a software engineer and product builder working across full-stack development, digital health, fashion technology, and software engineering research."
 url                      : https://cenaashoori.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "cenaashoori/cenaashoori.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false  # true, false (default)
-seo_description          : "Site for Mohammad Hosein Ashoori, Undergrad student of Computer Engineering at Vali-e-Asr University of Rafsanjan"
+seo_description          : "Mohammad Hosein (Cena) Ashoori builds polished software products from idea to production, with React, Next.js, Python, Django, and FastAPI."
 words_per_minute         : 160
 future                   : true
 read_more                : "enabled" # if enabled, adds "Read more" links to excerpts
@@ -63,13 +63,18 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "profile.png" # filename in /images, used by social sharing metadata
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : "Person"
+  name                   : "Mohammad Hosein (Cena) Ashoori"
+  links:
+    - "https://cenaashoori.github.io/"
+    - "https://www.linkedin.com/in/mhashoori/"
+    - "https://github.com/CenaAshoori"
+    - "https://scholar.google.com/citations?user=eBNZsM0AAAAJ"
+    - "https://orcid.org/0000-0001-9443-0949"
 
 
 # Analytics
@@ -81,16 +86,16 @@ analytics:
 
 # Site Author
 author:
-  name             : "Mohammad Hosein Ashoori"
-  avatar           : "profile.jpg"
-  bio              : "Software Engineering Student | Teaching/Research Assistant | Full-Stack Dev | Computer Science Enthusiast <br> <br> Undergradute Research/Teaching Assistant at Vali-e-Asr University of Rafsanjan, <a href='https://en.vru.ac.ir/department-of-computer-engineering/'>Department of Computer Engineering</a>"
-  location         : "Gilan, Iran"
+  name             : "Mohammad Hosein (Cena) Ashoori"
+  avatar           : "profile.png"
+  bio              : "Software engineer and product builder. I take web applications from product thinking and UX through React/Next.js implementation, backend services, and production delivery."
+  location         : "Dubai, United Arab Emirates"
   employer         :
   pubmed           : 
   googlescholar    : #"https://scholar.google.com/citations?user=eBNZsM0AAAAJ"
   email            : "mhashoori.edu@gmail.com"
-  researchgate     : #"https://www.researchgate.net/profile/Parsa-Kamalipour"
-  uri              :
+  researchgate     :
+  uri              : "https://cenaashoori.github.io/"
   bitbucket        :
   codepen          :
   dribbble         :
