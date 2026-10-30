@@ -1,6 +1,6 @@
 ---
 permalink: /biography/
-title: "Biography of Mohammad Hosein Ashoori"
+title: "Biography of Mohammad Hosein (Cena) Ashoori"
 excerpt: "Biography"
 author_profile: true
 ---
