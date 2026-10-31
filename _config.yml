@@ -63,7 +63,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "profile.png" # filename in /images, used by social sharing metadata
+og_image                 : "mohammad-hosein-cena-ashoori.png" # filename in /images, used by social sharing metadata
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Mohammad Hosein (Cena) Ashoori"
-  avatar           : "profile.png"
+  avatar           : "mohammad-hosein-cena-ashoori.png"
   bio              : "Software engineer and product builder. I take web applications from product thinking and UX through React/Next.js implementation, backend services, and production delivery."
   location         : "Dubai, United Arab Emirates"
   employer         :

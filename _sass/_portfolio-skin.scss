@@ -32,6 +32,37 @@ body::before {
   mask-image: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0.8) 62%, transparent 100%);
 }
 
+body::after {
+  position: fixed;
+  z-index: -2;
+  inset: -16%;
+  content: "";
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 34vw 42vh at 28% 30%, rgba(32, 204, 222, 0.31), transparent 72%),
+    radial-gradient(ellipse 30vw 40vh at 69% 48%, rgba(255, 94, 151, 0.29), transparent 73%),
+    radial-gradient(ellipse 24vw 34vh at 78% 27%, rgba(255, 174, 125, 0.24), transparent 72%);
+  filter: blur(38px);
+  opacity: 0.82;
+  transform: translate3d(-2%, -1%, 0) scale(1.02);
+  animation: liquid-drift 32s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+@keyframes liquid-drift {
+  0% {
+    transform: translate3d(-2%, -1%, 0) scale(1.02) skewX(-1deg);
+  }
+
+  50% {
+    transform: translate3d(1%, 2%, 0) scale(1.07) skewX(1deg);
+  }
+
+  100% {
+    transform: translate3d(3%, -2%, 0) scale(1.03) skewX(-0.5deg);
+  }
+}
+
 body,
 button,
 input,
@@ -246,6 +277,14 @@ a:focus-visible {
   color: #80dfe4;
 }
 
+.masthead,
+#main,
+.page__hero,
+.page__footer {
+  animation: none;
+  opacity: 1;
+}
+
 :focus-visible {
   outline: 2px solid #ffb19a;
   outline-offset: 3px;
@@ -264,6 +303,14 @@ a:focus-visible {
   .masthead__inner-wrap {
     padding-top: 0.7em;
     padding-bottom: 0.7em;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body::after {
+    animation: none;
+    transform: none;
+    will-change: auto;
   }
 }
 
