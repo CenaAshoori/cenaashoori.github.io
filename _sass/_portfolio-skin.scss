@@ -9,7 +9,7 @@ body {
   color: #d9edf3;
   background-color: #061827;
   background-image:
-    radial-gradient(ellipse 30rem 34rem at 61% 31%, rgba(255, 116, 128, 0.22), transparent 72%),
+    radial-gradient(ellipse 30rem 34rem at 61% 31%, rgba(255, 137, 111, 0.2), transparent 72%),
     radial-gradient(ellipse 15rem 23rem at 62% 35%, rgba(255, 174, 126, 0.28), transparent 70%),
     radial-gradient(ellipse 48rem 42rem at 4% 8%, rgba(0, 174, 211, 0.44), transparent 70%),
     radial-gradient(ellipse 44rem 55rem at 100% 30%, rgba(0, 123, 167, 0.39), transparent 73%),
@@ -40,7 +40,7 @@ body::after {
   pointer-events: none;
   background:
     radial-gradient(ellipse 34vw 42vh at 28% 30%, rgba(32, 204, 222, 0.31), transparent 72%),
-    radial-gradient(ellipse 30vw 40vh at 69% 48%, rgba(255, 112, 132, 0.24), transparent 73%),
+    radial-gradient(ellipse 30vw 40vh at 69% 48%, rgba(255, 132, 106, 0.23), transparent 73%),
     radial-gradient(ellipse 24vw 34vh at 78% 27%, rgba(255, 174, 125, 0.28), transparent 72%);
   filter: blur(38px);
   opacity: 0.82;
@@ -148,7 +148,7 @@ a:focus-visible {
   overflow: hidden;
   color: #d9edf3;
   background:
-    radial-gradient(ellipse 26rem 19rem at 82% 3%, rgba(255, 111, 127, 0.15), transparent 74%),
+    radial-gradient(ellipse 26rem 19rem at 82% 3%, rgba(255, 141, 109, 0.14), transparent 74%),
     linear-gradient(145deg, rgba(10, 47, 68, 0.74), rgba(7, 28, 46, 0.78));
   border: 1px solid rgba(255, 155, 183, 0.27);
   border-radius: 24px;
