@@ -55,7 +55,7 @@ a {
 }
 
 a:visited {
-  color: #b9a9e4;
+  color: #ffc0d0;
 }
 
 a:hover,
@@ -85,7 +85,7 @@ a:focus-visible {
 }
 
 .greedy-nav .visible-links a:before {
-  background: #67dfe4;
+  background: linear-gradient(90deg, #67dfe4, #ff9fba);
 }
 
 .greedy-nav .hidden-links {
@@ -111,22 +111,31 @@ a:focus-visible {
 }
 
 .page {
+  position: relative;
   box-sizing: border-box;
   padding: clamp(1.25rem, 3.2vw, 2.75rem);
   overflow: hidden;
   color: #d9edf3;
-  background: linear-gradient(145deg, rgba(10, 47, 68, 0.74), rgba(7, 28, 46, 0.78));
-  border: 1px solid rgba(119, 220, 229, 0.19);
+  background:
+    radial-gradient(ellipse 26rem 19rem at 82% 3%, rgba(245, 97, 139, 0.19), transparent 74%),
+    linear-gradient(145deg, rgba(10, 47, 68, 0.74), rgba(7, 28, 46, 0.78));
+  border: 1px solid rgba(255, 155, 183, 0.27);
   border-radius: 24px;
   box-shadow: 0 24px 72px rgba(0, 9, 20, 0.27);
   -webkit-backdrop-filter: blur(12px);
   backdrop-filter: blur(12px);
 }
 
+.page__inner-wrap {
+  position: relative;
+  z-index: 1;
+}
+
 .page__title {
   color: #f8fdff;
   line-height: 1.08;
   letter-spacing: -0.035em;
+  text-shadow: 0 0 34px rgba(255, 123, 162, 0.2);
 }
 
 .page__content {
@@ -135,13 +144,13 @@ a:focus-visible {
 }
 
 .page__content h2 {
-  color: #effbfc;
-  border-bottom-color: rgba(107, 218, 225, 0.28);
+  color: #ffe8ef;
+  border-bottom-color: rgba(255, 150, 180, 0.38);
 }
 
 .page__content h3,
 .archive__item-title {
-  color: #eaf9fb;
+  color: #ffe0e9;
 }
 
 .page__content a,
@@ -154,6 +163,19 @@ a:focus-visible {
 .sidebar a:hover,
 .page__footer a:hover {
   color: #ffb19a;
+}
+
+.page__content a[href^="https://abroadin.com"] {
+  color: #ffa8c0;
+}
+
+.page__content a[href^="https://abroadin.com"]:hover {
+  color: #ffd0dc;
+}
+
+.page__content ul li::marker,
+.page__content ol li::marker {
+  color: #ff9db8;
 }
 
 .page__content blockquote {
@@ -179,8 +201,8 @@ a:focus-visible {
 }
 
 .author__avatar img {
-  border: 1px solid rgba(126, 226, 231, 0.5);
-  box-shadow: 0 0 0 5px rgba(41, 191, 208, 0.1), 0 14px 38px rgba(0, 10, 24, 0.38);
+  border: 1px solid rgba(255, 169, 194, 0.68);
+  box-shadow: 0 0 0 5px rgba(246, 105, 145, 0.13), 0 0 32px rgba(255, 105, 149, 0.21), 0 14px 38px rgba(0, 10, 24, 0.38);
 }
 
 .author__name,
@@ -198,8 +220,8 @@ a:focus-visible {
 .author__urls-wrapper button,
 .btn {
   color: #062332 !important;
-  background: linear-gradient(110deg, #8be8e8, #9fdce9) !important;
-  border: 1px solid rgba(217, 255, 255, 0.38) !important;
+  background: linear-gradient(110deg, #8be8e8 0%, #b2dfe9 48%, #ffadc4 100%) !important;
+  border: 1px solid rgba(255, 214, 228, 0.56) !important;
   border-radius: 999px;
   box-shadow: 0 8px 24px rgba(0, 13, 28, 0.2);
 }
@@ -207,13 +229,15 @@ a:focus-visible {
 .author__urls-wrapper button:hover,
 .btn:hover {
   color: #062332 !important;
-  background: linear-gradient(110deg, #ffc0a5, #ff9daf) !important;
+  background: linear-gradient(110deg, #ffc0a5, #ff8fb2) !important;
 }
 
 .page__footer {
   color: #bdd7df;
-  background: rgba(4, 20, 34, 0.72);
-  border-top-color: rgba(111, 221, 226, 0.18);
+  background:
+    radial-gradient(ellipse at 78% 0%, rgba(222, 76, 126, 0.13), transparent 47%),
+    rgba(4, 20, 34, 0.78);
+  border-top-color: rgba(255, 151, 181, 0.22);
   -webkit-backdrop-filter: blur(14px);
   backdrop-filter: blur(14px);
 }
